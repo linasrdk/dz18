@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Фільмовий пошук</title>
+   <link rel="stylesheet" href="CSS/style.css">
+   <link rel="stylesheet" href="CSS/bootstrap.min.css">
+</head>
+
+<body>
+   <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container-fluid">
+         <div class="navbar-header">
+            <a href="index.html" class="navbar-brand">Головна</a>
+         </div>
+      </div>
+   </nav>
+   <div class="container">
+      <div class="well" id="movie"></div>
+   </div>
+
+   <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+   <script src="js/main.js"></script>
+   <script>
+       getMovie();
+   </script>
+</body>
+</html>

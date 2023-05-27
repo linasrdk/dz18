@@ -1,0 +1,11 @@
+#movies img{
+   width: 100%;
+}
+#movies .col-md-3{
+   margin: 10px auto;
+}
+@media (min-width:960px) {
+   #movies .col-md-3{
+      height: 500px;
+   }
+}
